@@ -60,7 +60,7 @@ const Footer = () => {
                 <Phone />
               </div>
               <p className={styles.label}>
-                <a href="tel:+91 1234567890">+91 1234567890</a>
+                <a href="tel:+91 8871911901">+91 8871911901</a>
               </p>
             </li>
             <li className={styles.listItem}>
@@ -68,7 +68,9 @@ const Footer = () => {
                 <Email />
               </div>
               <p className={styles.label}>
-                <a href="mailto:2Bm0y@example.com">2Bm0y@example.com</a>
+                <a href="mailto:info@kalpitcapital.com">
+                  info@kalpitcapital.com
+                </a>
               </p>
             </li>
           </ul>
