@@ -1,0 +1,64 @@
+.HomeSlide2 {
+  width: 100vw;
+  height: fit-content;
+  padding-top: 10.11vh;
+  margin-bottom: max(10vh, 150px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .heading {
+      font-weight: 600;
+      text-align: center;
+      font-size: 4.7vw;
+      line-height: 125%;
+      color: #18181b;
+
+      .colorText {
+        color: #53e27b;
+      }
+    }
+    .desc {
+      width: 100%;
+      text-align: center;
+      font-weight: 500;
+      font-size: Max(1.1vw, 16px);
+      line-height: 188%;
+      color: #767d90;
+    }
+
+    @media (max-width: 900px) {
+      .heading {
+        // width: 100%;
+        width: 74.21%;
+        font-size: 5vh;
+        line-height: 133%;
+      }
+      .desb {
+        margin-top: 40px;
+        width: 62%;
+        font-size: 16px;
+        text-align: center;
+        line-height: 181%;
+      }
+    }
+    @media (max-width: 520px) {
+      .heading {
+        width: 100%;
+        font-size: 32px;
+        line-height: 138%;
+      }
+      .desb {
+        width: 100%;
+        margin-top: 40px;
+        font-size: 16px;
+        line-height: 181%;
+      }
+    }
+  }
+}

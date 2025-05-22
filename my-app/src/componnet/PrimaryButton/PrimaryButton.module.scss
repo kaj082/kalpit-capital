@@ -1,0 +1,36 @@
+.PrimaryButton {
+  width: 150px;
+  height: 46px;
+  background: green;
+  padding-left: 35px;
+  padding-right: 17px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  @media (max-width: 900px) {
+    padding-left: 17px;
+  }
+  .text {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.PrimaryButton:hover {
+  background: #499c44;
+}
+.back {
+  background: #4f4f4f;
+}
+.back:hover {
+  background: #8a8a8a;
+}
